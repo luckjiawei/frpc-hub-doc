@@ -7,7 +7,8 @@ export default defineConfig({
   description: "现代化的 Frpc 管理平台 - 基于 PocketBase 和 React 构建的强大内网穿透管理系统",
   head: [
     ['link', { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }]
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
+    ['script', { defer: '', src: 'https://umami.jwinks.com/script.js', 'data-website-id': '391debd4-52ac-47c0-a6e6-c1edabe3e671' }]
   ],
   metaChunk: true,
   themeConfig: {
